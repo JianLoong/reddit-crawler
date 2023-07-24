@@ -1,0 +1,39 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  crawler:
+    build: ./
+    container_name: backend
+    # ports:
+    #   - 8080:8080
+    # environment:
+    #   - DB_HOST=host.docker.internal
+    #   - DB_USER=admin
+    #   - DB_PASSWORD=admin
+    #   - DB_NAME=kms
+    #   - DB_PORT=5432
+    # env_file:
+    #   - database.env
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"
+
+
+  # mongo:
+  #   image: mongo
+  #   restart: always
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: example
+
+
+  # mongo-express:
+  #   image: mongo-express
+  #   restart: always
+  #   ports:
+  #     - 8081:8081
+  #   environment:
+  #     ME_CONFIG_MONGODB_ADMINUSERNAME: root
+  #     ME_CONFIG_MONGODB_ADMINPASSWORD: example
+  #     ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
