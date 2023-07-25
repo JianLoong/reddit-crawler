@@ -46,6 +46,45 @@ func request(url string) []byte {
 
 }
 
+func store(sub models.Submission, db *gorm.DB) {
+
+	var commentObject models.CommentsResponse
+
+	var commentData = request("https://www.reddit.com/" + sub.Permalink + ".json")
+
+	json.Unmarshal(commentData, &commentObject)
+
+	fmt.Println("Obtained comments")
+
+	if len(commentObject) == 0 {
+
+		// defer wg.Done()
+
+		return
+
+	}
+
+	for j := 0; j < len(commentObject[1].Data.Children); j++ {
+
+		var comment models.Comment
+
+		comment.Message = commentObject[1].Data.Children[j].Data.Body
+		comment.CreatedUTC = commentObject[1].Data.Children[j].Data.CreatedUtc
+		comment.Score = uint8(commentObject[1].Data.Children[j].Data.Score)
+		// comment.SubmissionID = responseObject.Data.Children[i].Data.ID
+		comment.SubmissionID = sub.SubmissionID
+		comment.CommentID = commentObject[1].Data.Children[j].Data.ID
+
+		db.Clauses(clause.OnConflict{
+			UpdateAll: true,
+		}).Create(&comment)
+
+	}
+
+	// defer wg.Done()
+
+}
+
 func crawl(subreddit_name string) {
 
 	var sqlite_name = "databases/" + subreddit_name + ".sqlite"
@@ -67,6 +106,8 @@ func crawl(subreddit_name string) {
 
 	fmt.Println("Processing")
 
+	// var wg sync.WaitGroup
+
 	for i := 0; i < len(responseObject.Data.Children); i++ {
 		var sub models.Submission
 
@@ -85,33 +126,14 @@ func crawl(subreddit_name string) {
 			UpdateAll: true,
 		}).Create(&sub)
 
-		var commentObject models.CommentsResponse
+		// Wait group for go routines
+		// wg.Add(1)
 
-		var commentData = request("https://www.reddit.com/" + sub.Permalink + ".json")
+		store(sub, db)
 
-		json.Unmarshal(commentData, &commentObject)
-
-		if len(commentObject) == 0 {
-			continue
-		}
-
-		for j := 0; j < len(commentObject[1].Data.Children); j++ {
-
-			var comment models.Comment
-
-			comment.Message = commentObject[1].Data.Children[j].Data.Body
-			comment.CreatedUTC = commentObject[1].Data.Children[j].Data.CreatedUtc
-			comment.Score = uint8(commentObject[1].Data.Children[j].Data.Score)
-			// comment.SubmissionID = responseObject.Data.Children[i].Data.ID
-			comment.SubmissionID = sub.SubmissionID
-			comment.CommentID = commentObject[1].Data.Children[j].Data.ID
-
-			db.Clauses(clause.OnConflict{
-				UpdateAll: true,
-			}).Create(&comment)
-
-		}
 	}
+
+	// wg.Wait()
 
 }
 
@@ -134,7 +156,7 @@ func build_indexes(name string) {
 
 		file, _ := json.MarshalIndent(submissions[i], "", " ")
 
-		err := os.WriteFile(id, file, 0744)
+		err := os.WriteFile(id, file, 0777)
 
 		if err != nil {
 			panic(err)
@@ -193,4 +215,5 @@ func main() {
 	crawl(subreddit_name)
 
 	create_end_points(subreddit_name)
+
 }

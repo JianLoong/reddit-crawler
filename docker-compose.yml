@@ -6,7 +6,7 @@ services:
     build: ./
     container_name: crawler
     command: 
-      - melbourne
+      - askreddit
     # env_file:
     #   - database.env
     # extra_hosts:
