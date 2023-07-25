@@ -48,7 +48,7 @@ func request(url string) []byte {
 
 func crawl(subreddit_name string) {
 
-	var sqlite_name = subreddit_name + ".sqlite"
+	var sqlite_name = "databases/" + subreddit_name + ".sqlite"
 
 	migrate(sqlite_name)
 
@@ -64,6 +64,8 @@ func crawl(subreddit_name string) {
 	if err != nil {
 		panic("failed to connect database")
 	}
+
+	fmt.Println("Processing")
 
 	for i := 0; i < len(responseObject.Data.Children); i++ {
 		var sub models.Submission
@@ -113,9 +115,39 @@ func crawl(subreddit_name string) {
 
 }
 
+func build_indexes(name string) {
+
+	var sqlite_name = "databases/" + name + ".sqlite"
+
+	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
+	if err != nil {
+		panic("failed to connect database")
+	}
+
+	var submissions []models.Submission
+
+	db.Find(&submissions)
+
+	for i := 0; i < len(submissions); i++ {
+
+		var id = "./api/" + name + "/" + "index" + ".json"
+
+		file, _ := json.MarshalIndent(submissions[i], "", " ")
+
+		err := os.WriteFile(id, file, 0744)
+
+		if err != nil {
+			panic(err)
+		}
+
+	}
+
+}
+
 func create_end_points(name string) {
 
-	var sqlite_name = name + ".sqlite"
+	var sqlite_name = "databases/" + name + ".sqlite"
+
 	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
@@ -126,8 +158,8 @@ func create_end_points(name string) {
 	db.Preload("Comments").Find(&submissions)
 
 	if _, err := os.Stat("./api/" + name); os.IsNotExist(err) {
+
 		err := os.Mkdir("./api/"+name, 0744)
-		// TODO: handle error
 
 		if err != nil {
 			panic("Cant create directory")
@@ -137,8 +169,6 @@ func create_end_points(name string) {
 	for i := 0; i < len(submissions); i++ {
 
 		var id = "./api/" + name + "/" + submissions[i].SubmissionID + ".json"
-
-		// var id = "./api/" + name + "/" + strconv.FormatUint(uint64(submissions[i].SubmissionID), 10) + ".json"
 
 		file, _ := json.MarshalIndent(submissions[i], "", " ")
 
@@ -154,7 +184,7 @@ func create_end_points(name string) {
 
 func main() {
 
-	var subreddit_name = "worldnews"
+	var subreddit_name = "AskReddit"
 
 	crawl(subreddit_name)
 

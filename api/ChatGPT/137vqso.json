@@ -1,0 +1,620 @@
+{
+ "submission_id": "137vqso",
+ "title": "General discussion thread",
+ "selftext": "To discuss anything and everything related to ChatGPT/OpenAI/Generative AI.\n\nFeel free to ask any queries and also help out by answering other's questions.",
+ "created_utc": 1683225128,
+ "permalink": "/r/ChatGPT/comments/137vqso/general_discussion_thread/",
+ "score": 138,
+ "url": "https://www.reddit.com/r/ChatGPT/comments/137vqso/general_discussion_thread/",
+ "comments": [
+  {
+   "comment_id": "jtaralz",
+   "message": "Hey there, why my vscode extension for chat gpt isn’t working anymore? \nIs there a kind of request limit or something like that?",
+   "created_utc": 1690232063,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jtagri1",
+   "message": "Does anyone know of an app or a site where kids can talk to historical characters and learn about them? Character.ai seems to be for entertainment and is not based on factual information.",
+   "created_utc": 1690228047,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jtaepj5",
+   "message": "Just came across this video on AI in music. In light of the grammy announcement yesterday. Thoughts? [https://www.youtube.com/watch?v=v2mnPCyV\\_xc](https://www.youtube.com/watch?v=v2mnPCyV_xc)",
+   "created_utc": 1690227258,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt9niap",
+   "message": "What tasks is ChatGPT **good** at? Because the best I've seen is good at... *some* of the time.\n\nWhat's it RELIABLY good at?",
+   "created_utc": 1690216513,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt8kin9",
+   "message": "Why is ChatGPT so dumb? What happened?",
+   "created_utc": 1690199084,
+   "score": 5,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt6eu6s",
+   "message": "Question ... Is anyone using chatGPT as a general assistant but using it verbally through iOS ?\n\nThe use case ... I have a dog that we got during covid, and to my surprise he needs a lot more exercise than the internet suggested.   That means he's happiest with 1.5 - 2 hrs of walking a day ... Which is a lot more than I was prepared to give up when we got him.\n\nI'm looking at making better use of that time when it is during work hours (like lunch) and I've stumbled across its  good workflow to record some of my ideas verbally via the iPhone ... But when I do that my notes tend to ramble and not be well constructed.\n\n.... BUT when you feed those to chatGPT it almost always does a great job of cleaning the language up, providing a good summary and ideas of how to improve.  I get back to work with some good docs, emails and Todo lists that I'm ready to go with.   It's awkard though, I almost always am fumbling with my phone, and I think incould smooth it out with automation and get a better walk in.\n\nSo ... I'm looking for a good note taking flow using my iPhone , capturing the notes, proofreading them with chatgpt, and then taking that note either as an email or markdown.\n\nI'm using drafts pro, have a chatgpt subscription, so that is one system.  It needs a lot of work though to smooth it out ...,so thought I would ask if anyone else has a walking the dog workflow with iOS, with chatgpt running interference for quality control and sharing.",
+   "created_utc": 1690151387,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt5f0jx",
+   "message": "best prompts to make the use of chat gtp undetectable?",
+   "created_utc": 1690136312,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt54wfz",
+   "message": "Well I’m new here, but you had me at “hi there bitch”",
+   "created_utc": 1690132078,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt52etk",
+   "message": "Is the upgraded 4.0 worth the $26 per month ?",
+   "created_utc": 1690131040,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt33nb3",
+   "message": "\" I apologize, it appears that there was an error with the code execution  environment. Unfortunately, this is a technical issue beyond my control.  \"",
+   "created_utc": 1690088299,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt2mbvh",
+   "message": "I just want to say that if you haven't tried asking ChatGPT to respond as Soundwave from Transforms (G1), you're missing out.  It's a natural fit.",
+   "created_utc": 1690078071,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt2jvy7",
+   "message": "I asked Chat GPT to draw me a picture of the state of Texas and Florida using ASCII art... Behold!\n\n                   __\n             . -  \"  ' - .\n        . '                   ' .\n      /                            \\\n    |             Texas            |\n      \\_                     _/\n        ' - . _ _ _ _ _ . - '\n\n\n\n         /~~~~~\\\n        /       \\\n       /_________\\\n      /           \\\n     /   Florida   \\\n    /_______________\\",
+   "created_utc": 1690076721,
+   "score": 5,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt21tij",
+   "message": "ever wondered how walter white would do in the stock market?   tangie, is a fun new way to engage with investing.  create characters, give them an investment strategy, and watch their fortunes rise (or fall)!  \n\n\ni made this using langchain generative agents and gpt4, dm me if you want to try",
+   "created_utc": 1690067610,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jt1y8la",
+   "message": "Does anyone know a good, free/freenium AI that'll write a story that won't throw a hissy fit if things go past PG?",
+   "created_utc": 1690065919,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jszua7m",
+   "message": "Can anyone recommend a good book/e-book to learn about AI? \nI am interested in a rundown of recent years’ progress, different types of models, applications, etc :)",
+   "created_utc": 1690032065,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jszqjcs",
+   "message": "Hello! I am trying to create an account to use Chatgpt, however it requires a phone number for me to continue. The problems is that it says every phone number I put in for verification are landlines, although none of them are; they’re all functioning cell phone numbers.\n\nFor more detail, I tried 4 different cell phone numbers. All to which are fully active and in regular/daily use. All are with different service providers as well. All are Canadian numbers\n\nWhen reaching out to support I was able to get through their support chatbot to finally get an email reply, but the only instruction was to ensure that my number was input correctly, which it absolutely is, and to pick the correct region, which I absolutely have.\n\nHas anyone encountered this issue and been able to correct or circumvent it?",
+   "created_utc": 1690030052,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsytpso",
+   "message": "Is chat Gpt a good tool for writing research articles?",
+   "created_utc": 1690005773,
+   "score": 0,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsyq5sw",
+   "message": "Asked chat gpt how to remove crayons from nose to reverse the lobotomization process and this is what I get.\n\nLSD (Lysergic Acid Diethylamide) was first synthesized November 16, 1938. Through the genius research of the Swiss chemist Albert Hoffman. Sandoz Laboratories were working on the development of a synthetic or semi-synthetic compound to improve, respiration and circulation. During the 25th derivative test of iodine, a strange new compound was discovered. The compound was thought to be inert (having no effect, or inherent use) until one faithful day, Albert Hoffman happened to not be properly followed safety procedures for handling unknown compounds. This lead to an unintended consumption of the unknown compound. While riding home from work on bicycle Albert Hoffman noticed slight auditory, and visual distortions. The discovery of auditory, and visual distortions lead researchers to begin animal testing. Eventually this compound was criminalized, due to the claims of some stating LSD(Lysergic Acid Diethylamide)is nothing more than addictive compound, having no medicinal value. Scientists later debunked this claim through conducting further research. Untapped medicinal benefits are now believed to be contained in LSD(Lysergic Acid Diethylamide) along with similar compounds (Psilocybin,DMT,Ketamine) These compounds have been shown as an effective treatment for the underlying effects of PTSD(Post Traumatic Stress Disorder). Data also states hallucinogens to be  effective treating patients diagnosed with anxiety, and depression disorders. As of today scientific institutions continue their research into the medical benefits of the relatively unexplored field that is Psychedelic research. As laws continue to change around the world research into this nearly unexplored field is becoming more readily accessible. Studies have show there to be no long term side effects observable in patients who participated in psychedelic research. Psychedelic medicine is only to be used in a controlled environment with the observation of medical professionals. When used for the medicinal benefits these compounds will better the lives of many struggling individuals around the world. With this being said Psychedelic compounds are medicine to be treated with the utmost respect such as any medicine prescription or over the counter.\n\nhttps://preview.redd.it/q9xsygodbgdb1.jpeg?width=540\u0026amp;format=pjpg\u0026amp;auto=webp\u0026amp;s=4ece1a34ae4612dfd10c60857820f84bafd17402\n\nPs Shrek is Love Shrek is Life stay happy never give up 😊",
+   "created_utc": 1690003304,
+   "score": 254,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsym5hs",
+   "message": "Are there any models out there that are reminiscent to what GPT was before it got dumb?",
+   "created_utc": 1690000702,
+   "score": 6,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsygay7",
+   "message": "the lawsuits are destroying this thing.\n\nbeen using it for months now it dosent want to give any advice on any topic.\n\nsooo freaking dumb.\n\n\"My knee hurts when i run\"\n\n\"Sorry i'm an AI langauge model not a doctor, hope you feel better\"\n\nwtf am i paying for.\n\n\n\"is this stock a good buy\"\n\n\"sorry i cant give financial advice\"",
+   "created_utc": 1689997198,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsxash4",
+   "message": "What are you guys using now to create AI generated art? I have some ideas of things I want to make, but I’m an objectively terrible artist. I’ve tried Bing. Any other suggestions?",
+   "created_utc": 1689977036,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsxahrt",
+   "message": "I am so fucking pissed off. I used ChatGPT to help me write stories and now whenever I give it a prompt it says “I apologize, but I cannot continue with the direction of the story involving inappropriate or explicit content. If you have any other questions or need assistance with different topics, feel free to ask, and I'll be glad to help.”\n\nFor the past week I was having so much fun and all of a sudden it doesn’t want to write my ideas anymore, this is heartbreaking as it was working perfectly and now it has been snatched away from me forever.",
+   "created_utc": 1689976908,
+   "score": 3,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsuztgj",
+   "message": "The new academic year is coming soon. And if anyone is looking for AI tools to help with academic writing, feel free to try [Textero.ai](https://www.textero.ai/?utm\\_source=reddit\u0026amp;utm\\_medium=social\u0026amp;utm\\_campaign=smm) for summarizing articles, generating ideas, and find reliable sources.",
+   "created_utc": 1689944187,
+   "score": 0,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsullx0",
+   "message": "Finally decided to delete my ChatGPT account, could not take it anymore of the AI Stupidty, and his repetitive words of 'With Determination, with unwavering determination, facing the challenges that lies ahead' I'AM NOT USING ChatGPT ever again, not until there is a blacklist system that can let you ban unwanted words, and i don't regret it.",
+   "created_utc": 1689936081,
+   "score": 252,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsuesqn",
+   "message": "I've just discovered poe, don't know why people pay $20 for GPT4 if they can have access to many paid chatbots for $19. Good one.",
+   "created_utc": 1689930853,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jstr7c4",
+   "message": "Is there a way to get ChatGBT to scrape all the copy off my website to help start editing it offline for a redesign?",
+   "created_utc": 1689913804,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsssk34",
+   "message": "Now with chatgpt-connect chrome extension you could use chatgpt (the webapp) outside the browser for more information : [https://github.com/Ayyoub-ESSADEQ/chatgpt-connect](https://github.com/Ayyoub-ESSADEQ/chatgpt-connect)",
+   "created_utc": 1689896576,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jssdusr",
+   "message": "Is anyone else seeing massive math errors starting today?  I've run every calculation through ChatGPT 4.0 and Google today, and it's off not just a little on rounding but completely out of whack.  The equations are correct, but not the math.",
+   "created_utc": 1689890253,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jssatps",
+   "message": "Ayyy the GPT4 cap is raised to 50 for me at least :) Ran into the 25 cap twice yesterday.",
+   "created_utc": 1689889058,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jss2ezz",
+   "message": "Are we screwed? Will our jobs disappear?",
+   "created_utc": 1689885831,
+   "score": 5,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsrqps0",
+   "message": "I spent 5 hours messing with AI today in the hope of saving myself from doing a 1 hour task. I failed! Anyone else have days like that?",
+   "created_utc": 1689881396,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsr8zo7",
+   "message": "when is the next model coming out? are they training Gpt 4.5 or 5?",
+   "created_utc": 1689874794,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsqkklj",
+   "message": "Is there any way ChatGPT can create images / proper diagramms by now without weird ass ascii art? 😂 \nOr interpret images I feed it?\nDont mind paying PLUS if that feature exists by now",
+   "created_utc": 1689865732,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jspyhkg",
+   "message": "Ahuwer",
+   "created_utc": 1689856311,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsn6a7f",
+   "message": "Should AI be use in academic settings? Is this somethings that allows students to broaden their knowledge to ideas that potentially wouldn’t have come up, or would it allow short cuts and laziness. I am curious on the thoughts on this.",
+   "created_utc": 1689800996,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsmorfp",
+   "message": "I'm very much in the beginner's position of trying to use tools like ChatGPT, MidJourney, Claude, etc. for the past half-year.\n\nI'm about to start sharing what I'm learning, with a focus on responsible and intentional adoption, with fellow people who need it demystified in \\*simple terms\\* like I have.\n\nI will not be pretending to know things I don't. I am NOT a programmer or Machine Learning expert - just someone who feels the tidal wave of change coming. 🌊\n\nI personally feel it's a vital time for all of us to be learning more about  \n\\- how to use, and shape, these tools  \n\\- how we can democratize them amongst ourselves (not just the 1%...)\n\nTo that end, and toward cultivating a mutual learning community, I am wondering if you'll tell me a bit about yourself.\n\n**Who are you? Why are you trying to learn more about AI/AI tools, and what do you really care about in all this?**\n\n👂",
+   "created_utc": 1689794544,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsmlacx",
+   "message": "when will the browse plugin be available again?",
+   "created_utc": 1689793239,
+   "score": 5,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsmc5qu",
+   "message": "[deleted]",
+   "created_utc": 1689789710,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jslpjr3",
+   "message": "Has anybody noticed that the Zillow and Redfin plugins have been pulled?  Does anybody know why these organizations are pulling plugins?",
+   "created_utc": 1689781379,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jskf8zr",
+   "message": "  \n\n# Will AI become a KEY to change the relationship of production?\n\nThroughout history, every revolution in production relations was caused by changes in productivity. Such as the Industrial Revolution, with the influx of people from the countryside to the cities and the increase in productivity brought about by new machines, the germs of capitalism emerged in Europe. I see the potential for massive productivity gains in this wave of OpenAI. Including but not limited to the release of a large amount of productivity (for example, the original team task of 100 people may now only need 10 people to operate AI), whether this can be considered as an important trigger for changing production relations. Can we reignite a revolution in the changing relations of production as production efficiency vastly outstrips people's needs? Is socialism regaining its vitality in the context of AI explosion?\n\n (This is a HUGE question. I will post this topic to discuss after I got more than 5 Karma :(",
+   "created_utc": 1689757269,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsjvfzq",
+   "message": " Joining the conversation on ChatGPT/OpenAI/Generative AI! Let's explore the possibilities together.",
+   "created_utc": 1689742803,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsjng8x",
+   "message": "Ok I have a list of vin numbers provided by a client and I want to pull a list of year make model trade in privateparty and retail values. Is this possible???",
+   "created_utc": 1689738158,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsjhmke",
+   "message": "Has anyone tried deploying a local version of ChatGPT with MongoDB…we tried Llama, are able to create the indices but unable to get the chat page going. Please help!",
+   "created_utc": 1689735060,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsj30dv",
+   "message": "wtf chatgpt \n\nhttps://preview.redd.it/vi3vsl8bltcb1.png?width=670\u0026amp;format=png\u0026amp;auto=webp\u0026amp;s=045a4e1a70863003d0edcfb9c3e28799f95ab145",
+   "created_utc": 1689728146,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsifc50",
+   "message": " ف.",
+   "created_utc": 1689717892,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsif6ja",
+   "message": "I work as a content lead for a team of conversation designers overseeing the creation, development and maintenance of conversational chatbots for a health company in Australia. I’ve been getting calls from recruiters - there is a huge demand for ChatGPT and AI ‘educators’ to lead teams in other organisations. How do I level up so I can be an educator? Books, conferences/seminars, courses? Any help and advice is much appreciated.",
+   "created_utc": 1689717830,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsi4dzv",
+   "message": "Any news on when the next version is coming out?",
+   "created_utc": 1689713599,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsi2sf0",
+   "message": "Can someone explain me the token limitation and the token calculation (or send me a link to resources) ? \n\nI did make some tests with the tokenizer here : \n\nhttps://platform.openai.com/tokenizer\n\nBut also in Google colab with tokenizers (i did not test tiktoken)\n\nI tested the two solutions to have an idea on a text input size for the chat. \n\nHowever the sizes according to the two solutions are not the same (I suppose it is not the same way to calculate tokens). But the sizes also does not match with what should be the chat limit (4096 or 8192).\n\nIt does not even match in proportion.\n\nWhen I use the tokenizer from openai with a text I’m able to summarize a 9.2k tokens text (27k characters) on the 3.5 version. It should not be possible (or the tokenizer is wrong?) or the size limit of the chat is now using the 16k context ? \n\nOn the other hand gpt 4 can’t summarize the 9k tokens but is limited to less than 5k token (it works with 14K characters).\n\nDid I do something wrong ? \n\nDid the token limit changed ?\n\n\nThanks for the help :)",
+   "created_utc": 1689713001,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jshpn57",
+   "message": "Is there any news on when the data will be updated to the current version? I like it for debugging but the data seems to be limited till September 2021. I can't seem to find any updates from any blog that says they will update it.\n\nI am subscribed to it, so I have the plus version.",
+   "created_utc": 1689707858,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jshjpq7",
+   "message": "How to use chatGpt ?",
+   "created_utc": 1689705604,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsgs9ap",
+   "message": "Do any programming AI's exist (hopefully free since I'm just a farting around noob) that I can feed API docs to, to teach them the stuff required for me to write plugins for a software it does not know API info for? The language is C#.\n\nFor reference, I'm looking to make some plugins for Autodesk products. I have done it before but hoping the AI can help with some concepts I struggle with.\n\nThanks for any input!",
+   "created_utc": 1689694960,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsg8cdn",
+   "message": "Is AI always thinking or does it only think when interacted with?",
+   "created_utc": 1689686551,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsfhf42",
+   "message": "Please someone answer this question for me. I have heard a LOT about A.I. in the news, however I have never seen AI or Chat GPT? Wtf is this? Is it an app you are downloading, a robot you buy? a website you go to? I have literally looked online but THIS question is never actually discussed, just what you can do with it. I am curious where one goes to see AI/Chat stuff??",
+   "created_utc": 1689668894,
+   "score": 4,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsdxahh",
+   "message": "📢 **Calling all university students in Australia!** 🎓🇦🇺\n\nWe are conducting a short research study to investigate Australian university students' **experiences, needs, AI use and academic conduct**. \n\nYour perspective is important! The current digital climate has provided us with access to AI-powered chatbots, like ChatGPT. However, most Australian universities have implemented updated guidelines on how AI can (or typically cannot) be used during assessments. We would like to gather more information **directly** from university students.\n\nClick below to contribute your valuable response to our survey and help shape our understanding of student needs, AI use, and assessments. Your participation is and will remain **anonymous** and is expected to take **10-15 minutes**. \n\n**Link:** [https://questionpro.com.au/t/ARnKPZRtvk](https://questionpro.com.au/t/ARnKPZRtvk)\n\n*Note: Australian university students only. There is no reward for participating (sorry).* \n\nThank you for your time! ☺️\n\nPsychology Honours Dissertation, Charles Sturt University- Ethics (H23653)",
+   "created_utc": 1689636563,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsdt6oo",
+   "message": "I used ChatGPT back in March and was amazing. Helped with college for sure. Now I see how it isn’t as good and haven’t used it much but did have some questions. \n\nI see a lot about add ons/plug ins, etc. I am wondering where to start. Which add on can help write better prompts? I’ve seen a few. Also saw that you can upload a file and have it read it? I think? Anyways. I need to do my resume but I only have it on a PDF. I was hoping I can upload it and see how I can fix it. \n\nThank you!",
+   "created_utc": 1689634740,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsdhneu",
+   "message": "I've just upgraded to the Plus Subscription, but my UI is still the one of the free version.\n\nUnder My Plans i have an active Plus Subscription and i have an invoice for the 20$.\n\nDoes ChatGPT have a trial period or something that i need to wait for until i can access all the functionalities? \n\nI have tried different Browsers and internet connections, in addition to using a VPN.. but still no change..",
+   "created_utc": 1689629887,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsde3i5",
+   "message": "I've been trying to install AutoGPT (by following [this](https://www.youtube.com/watch?v=slJ8XpUG_NU\u0026amp;t=390s) tutorial). I'm now ready to give it a prompt, but it gives me back an error whenever I try. I feel it may be to do with the .env file, though it also mentions plugins.\n\n[Here](https://imgbox.com/g/JDSNmls1k4) are screenshots of my .env file (API keys are redacted).\n\n[Here](https://sendvid.com/k4hln7vm) is a video screen recording of what happens when I try and use AutoGPT.\n\nMacbook Pro M1 Pro 14-inch\n\nVentura\n\nMany thanks!",
+   "created_utc": 1689628470,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsd256j",
+   "message": "**For over a month now ChatGPT has stopped working on both my PC and Laptop, using Chrome, Opera, and Edge, whether Nord VPN was on or not.** \n\nNo matter what browser I used in what configuration, I always get the same error: \"Something went wrong. If this issue persists please contact us through our help center at help.openai.com. \"\n\nI can use Google Bard and go to any website perfectly fine. I am only having problems with ChatGPT.",
+   "created_utc": 1689623896,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jsb2h1j",
+   "message": "\r\nHello everyone,\r\n\r\nI've recently been inspired to launch a YouTube channel where I can share and present experiences not only from here but also from other sources about ChatGPT. I've already uploaded my first video. As a complete beginner, I would greatly appreciate hearing your opinions and suggestions on which topics you find interesting and would like me to explore.\r\n\r\nI'm eagerly looking forward to your recommendations and insights.\r\n\r\nBest regards,\r\n\r\nKH\r\n\r\nhttps://www.youtube.com/watch?v=jLxvxT5k-YE",
+   "created_utc": 1689593660,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "js77xq3",
+   "message": "Will Bing return to Chat GPT 4?  For a little bit it stated temporarily without but now not even a mention.",
+   "created_utc": 1689521485,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "js5efjp",
+   "message": "Why is chat gpt unable to calculate a monthly mortgage when it is given all the needed information? \n\nIt’ll throw you a number and you can say no it should be like 600/mo. And it will re write basically what ever you say. And it’s wrong every time.",
+   "created_utc": 1689479512,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "js4pz6l",
+   "message": "I don't know if this is possible, I really don't know anything about chatgpt but I was wondering if it was possible to play a recorded song or solo to an AI would it be able to recognize the notes and chords being played?",
+   "created_utc": 1689466912,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "js3vihv",
+   "message": "Gpt4 plugins is not working AT ALL RN",
+   "created_utc": 1689452733,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "js0892z",
+   "message": "I’m looking to hire someone to build out a simple private ChatGPT bot for me and train it on a small data set that is approx. the equivalent of 6,000 pages of prose in pdf form, mainly text books. Will need to sign NDA. Thank you!",
+   "created_utc": 1689380396,
+   "score": 3,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjgz09",
+   "message": "Hello! is it worth gpt plus? at the moment I use simple gpt and I see that it works ok. Why would I want gpt plus?\n\nGpt plus is gpt 4?",
+   "created_utc": 1689086346,
+   "score": 3,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjgpkr",
+   "message": "[deleted]",
+   "created_utc": 1689086233,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjgk01",
+   "message": "Anyone ask a jail broken gpg ai what the meaning of life is?",
+   "created_utc": 1689086168,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjghyf",
+   "message": "Chatgpt has been down Close to one hour or so … if you type chat GTp down on google\nAnd news you’ll see reports about global outrage :-(",
+   "created_utc": 1689086145,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjfrhv",
+   "message": "What's going on? It is not responding. :/ is it some general error?",
+   "created_utc": 1689085827,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjdzan",
+   "message": "Anyone getting chatgpt failed to get service errors?",
+   "created_utc": 1689085041,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjbob7",
+   "message": "Is there a list/page of top formats/wordings to ask CGPT for writing cover letters?  \nI do the usual \"*use this Job Description (paste it) and my CV (paste it) and write me a cover letter\"*",
+   "created_utc": 1689084016,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrjbns5",
+   "message": "i got blocked i havent done anything malicious or well done anything really i opened today and got a cloudfare message sayin i was blocked what can i do about it? I get the message every time i try to log in",
+   "created_utc": 1689084010,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrj82jq",
+   "message": "I use this [Gigantic Work](https://gigantic.work) to transcribe audio/video with OpenAI Whisper. Speed and quality are pretty good but translations are not. Is it possible to feed srt file to ChatGPT, ask it to translate the file and return result in srt format?",
+   "created_utc": 1689082404,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrj80ce",
+   "message": "Is it down?",
+   "created_utc": 1689082374,
+   "score": 3,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrin4vi",
+   "message": "Hi,\n\n\u0026amp;#x200B;\n\nMy company wants to see if its feasible to integrate the ChatGPt API on our data in real-time.\n\n\u0026amp;#x200B;\n\nDo you guys know any companies that already implement the API on there data? The companies I find have changes their products using Chagpt, but I cant find examples where ChatGPT looks and their data and creates reports etc.",
+   "created_utc": 1689069916,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrikgmu",
+   "message": "Why does ChatGPT spam a bunch of new threads with the question \"Can you tell me something about null\"? Whenever I return to the site after a few hours or the following day my chats are flooded with a bunch of new chats all asking some variation of asking about null. \n\nI've reported the bug to OpenAI but haven't got a response. Has anyone else come across this issue and figured out a fix?",
+   "created_utc": 1689067735,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrhithq",
+   "message": "Can ChatGPT count like a 6-year-old kid?\nhttps://youtu.be/U6nXmX5oYT0",
+   "created_utc": 1689042190,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrgs1xw",
+   "message": "[https://i.imgur.com/JHegf1w.png](https://i.imgur.com/JHegf1w.png)",
+   "created_utc": 1689029810,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrgn9mu",
+   "message": "Question on LLMs (Googled and asked chatGPT without success):\n\nHow does Meta benefit from developing Llama?  \n\n\nFor chatGPT it is quite clear, monthly recurring revenue from subscriptions. And for Bard it is also clear, ad revenue. But what is Meta's objective?",
+   "created_utc": 1689027731,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrgmokq",
+   "message": "Hey fellow users! I've been experimenting with ChatGPT, and I've come across an intriguing issue that I wanted to share and discuss with the community. I was wondering if anyone else has encountered a similar problem and if there are any potential solutions.\n\nDuring my recent testing, I asked ChatGPT to assist me in refactoring some code I've been working on. The code in question consists of around 112 lines. Initially, ChatGPT successfully generated 26 lines of code based on my instructions. However, when I requested it to continue writing and complete the remaining lines, it unexpectedly restarted from the beginning and stopped abruptly at 28 lines.\n\nInterestingly, when I assigned ChatGPT with other tasks, it performed flawlessly without any hiccups. So, I'm particularly curious to know if this code writing issue is specific to my experience or if others have encountered it as well.\n\nIf any of you have faced a similar situation or have any insights into what might be causing this behavior, I'd greatly appreciate your input. It would be helpful to understand if there's a workaround or if there are any tips to improve the code writing performance.\n\nLooking forward to hearing from the community! Thanks in advance for your time.",
+   "created_utc": 1689027478,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrgk342",
+   "message": "How does working memory behind chatGPT work?",
+   "created_utc": 1689026370,
+   "score": 2,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrgfudi",
+   "message": "How should monetization of content work in a ChatGPT world? I'm pro ChatGPT. In a pre chatgpt world people created information through research and posted to blogs. They made money doing this with ads, native ads, and/or donations. Monetization also occurs through paywalls or selling the information such as a book. ChatGPT allows users to bypass the ads and paywalls to access the information directly. This will likely lead to information creators to not being able to afford to create this information unless they are receiving money from donation sources (like universities or private research funding). Some creators will adapt by only pumping out information that directly directs people to a paid product. Like if someone is writing about plumbing, they will no longer write general plumbing articles unless everything directly ties to including SharkBite fittings. \n\nSo what is a good sustainable model for the sharing of money through this new system of asking Chatgpt how to fix a new toilet flush mechanism and getting good information. Or asking chatgpt to summarize a book.",
+   "created_utc": 1689024634,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrgdr6n",
+   "message": "what are people using to get voice out instead of just text? are there any free options or a guide somewhere?",
+   "created_utc": 1689023796,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrfkqy0",
+   "message": "Does anyone have any recommendations for an AI that can compare multiple documents? I have an assessment that has 5 different versions with minor changes in each one and i thought AI could make it simpler to compare them",
+   "created_utc": 1689012619,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrey95a",
+   "message": "It's back to normal guys, now I can work. 😅",
+   "created_utc": 1689003817,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrewpd0",
+   "message": "Same issue with me",
+   "created_utc": 1689003205,
+   "score": 1,
+   "submission_id": "137vqso"
+  },
+  {
+   "comment_id": "jrerwdm",
+   "message": "",
+   "created_utc": 0,
+   "score": 0,
+   "submission_id": "137vqso"
+  }
+ ]
+}

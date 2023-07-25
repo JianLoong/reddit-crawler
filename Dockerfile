@@ -12,20 +12,18 @@ RUN go mod download
 COPY main.go .
 
 # This method of building is needed
-RUN CGO_ENABLED=0 go build -a -installsuffix cgo -o main .
+RUN CGO_ENABLED=1 go build -a -installsuffix cgo -o main .
 
 # CMD ["/app/main"]
 
 
 # # Build final image
-FROM scratch
+FROM gcr.io/distroless/base-debian11 AS build-release-stage
 
 # RUN apk --no-cache add ca-certificates
 
-WORKDIR /root/
+WORKDIR /app
 
 COPY --from=builder /app/main ./
-
-EXPOSE 8080
 
 CMD [ "./main" ]
