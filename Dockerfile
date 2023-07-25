@@ -14,9 +14,6 @@ COPY main.go .
 # This method of building is needed
 RUN CGO_ENABLED=1 go build -a -installsuffix cgo -o main .
 
-# CMD ["/app/main"]
-
-
 # # Build final image
 FROM gcr.io/distroless/base-debian11 AS build-release-stage
 
@@ -26,4 +23,6 @@ WORKDIR /app
 
 COPY --from=builder /app/main ./
 
-CMD [ "./main" ]
+# CMD [ "./main" ]
+ENTRYPOINT ["./main"]
+

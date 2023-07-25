@@ -184,7 +184,11 @@ func create_end_points(name string) {
 
 func main() {
 
-	var subreddit_name = "AskReddit"
+	arg := os.Args[1]
+
+	subreddit_name := arg
+
+	// var subreddit_name = "AskReddit"
 
 	crawl(subreddit_name)
 
