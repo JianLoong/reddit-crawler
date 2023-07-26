@@ -85,13 +85,13 @@ func store(sub models.Submission, db *gorm.DB) {
 
 }
 
-func crawl(subreddit_name string) {
+func crawl(subreddit_name string, no_of_post string) {
 
 	var sqlite_name = "databases/" + subreddit_name + ".sqlite"
 
 	migrate(sqlite_name)
 
-	var url = "https://www.reddit.com/r/" + subreddit_name + ".json?limit=10"
+	var url = "https://www.reddit.com/r/" + subreddit_name + ".json?limit=" + no_of_post
 
 	var responseObject models.SubmissionResponse
 
@@ -206,13 +206,13 @@ func create_end_points(name string) {
 
 func main() {
 
-	arg := os.Args[1]
+	subreddit_name := os.Args[1]
 
-	subreddit_name := arg
+	no_of_post := os.Args[2]
 
 	// var subreddit_name = "AskReddit"
 
-	crawl(subreddit_name)
+	crawl(subreddit_name, no_of_post)
 
 	create_end_points(subreddit_name)
 
