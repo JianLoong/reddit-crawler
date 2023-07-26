@@ -142,26 +142,39 @@ func build_indexes(name string) {
 	var sqlite_name = "databases/" + name + ".sqlite"
 
 	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
+
 	if err != nil {
 		panic("failed to connect database")
 	}
 
 	var submissions []models.Submission
 
+	var indexes []models.Index
+
 	db.Find(&submissions)
 
 	for i := 0; i < len(submissions); i++ {
 
-		var id = "./api/" + name + "/" + "index" + ".json"
+		// var id = "./api/" + name + "/" + "index" + ".json"
 
-		file, _ := json.MarshalIndent(submissions[i], "", " ")
+		var index models.Index
 
-		err := os.WriteFile(id, file, 0777)
+		index.SubmissionID = submissions[i].SubmissionID
+		index.CreatedUTC = submissions[i].CreatedUTC
+		index.Score = submissions[i].Score
 
-		if err != nil {
-			panic(err)
-		}
+		indexes = append(indexes, index)
 
+	}
+
+	file, _ := json.MarshalIndent(indexes, "", " ")
+
+	file_name := "api/" + name + "/indexes.json"
+
+	write_err := os.WriteFile(file_name, file, 0777)
+
+	if write_err != nil {
+		panic(write_err)
 	}
 
 }
@@ -215,5 +228,7 @@ func main() {
 	crawl(subreddit_name, no_of_post)
 
 	create_end_points(subreddit_name)
+
+	build_indexes(subreddit_name)
 
 }
