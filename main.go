@@ -15,19 +15,37 @@ import (
 	"gorm.io/gorm/clause"
 )
 
-func migrate(name string) {
+// Wrapper for Storage client
+type StorageService struct {
+	db *gorm.DB
+}
 
-	db, err := gorm.Open(sqlite.Open(name), &gorm.Config{})
+// Top level declarations for the storeService and sqlite
+var (
+	storeService = &StorageService{}
+)
+
+func initialiseDatabase(name string) *gorm.DB {
+
+	var sqlite_name = "databases/" + name + ".sqlite"
+
+	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
 	}
 
+	return db
+}
+
+func migrate() {
+
 	// Migrate the schema
-	db.AutoMigrate(&models.Comment{})
-	db.AutoMigrate(&models.Submission{})
+	storeService.db.AutoMigrate(&models.Comment{})
+	storeService.db.AutoMigrate(&models.Submission{})
 
 }
 
+// Creates a request and returns the response
 func request(url string) []byte {
 
 	response, err := http.Get(url)
@@ -46,7 +64,7 @@ func request(url string) []byte {
 
 }
 
-func store(sub models.Submission, db *gorm.DB) {
+func getComments(sub models.Submission) {
 
 	var commentObject models.CommentsResponse
 
@@ -57,12 +75,10 @@ func store(sub models.Submission, db *gorm.DB) {
 	fmt.Println("Obtained comments")
 
 	if len(commentObject) == 0 {
-
-		// defer wg.Done()
-
 		return
-
 	}
+
+	var comments []models.Comment
 
 	for j := 0; j < len(commentObject[1].Data.Children); j++ {
 
@@ -75,21 +91,21 @@ func store(sub models.Submission, db *gorm.DB) {
 		comment.SubmissionID = sub.SubmissionID
 		comment.CommentID = commentObject[1].Data.Children[j].Data.ID
 
-		db.Clauses(clause.OnConflict{
-			UpdateAll: true,
-		}).Create(&comment)
+		comments = append(comments, comment)
+
+		// storeService.db.Clauses(clause.OnConflict{
+		// 	UpdateAll: true,
+		// }).Create(&comment)
 
 	}
 
-	// defer wg.Done()
+	storeService.db.Clauses(clause.OnConflict{
+		UpdateAll: true,
+	}).Create(&comments)
 
 }
 
 func crawl(subreddit_name string, no_of_post string) {
-
-	var sqlite_name = "databases/" + subreddit_name + ".sqlite"
-
-	migrate(sqlite_name)
 
 	var url = "https://www.reddit.com/r/" + subreddit_name + ".json?limit=" + no_of_post
 
@@ -99,14 +115,9 @@ func crawl(subreddit_name string, no_of_post string) {
 
 	json.Unmarshal(responseData, &responseObject)
 
-	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
-	if err != nil {
-		panic("failed to connect database")
-	}
-
 	fmt.Println("Processing")
 
-	// var wg sync.WaitGroup
+	// var submissions []models.Submission
 
 	for i := 0; i < len(responseObject.Data.Children); i++ {
 		var sub models.Submission
@@ -122,49 +133,31 @@ func crawl(subreddit_name string, no_of_post string) {
 
 		// db.Create((&sub))
 		// Upsert
-		db.Clauses(clause.OnConflict{
+		storeService.db.Clauses(clause.OnConflict{
 			UpdateAll: true,
 		}).Create(&sub)
 
-		// Wait group for go routines
-		// wg.Add(1)
-
-		store(sub, db)
+		getComments(sub)
 
 	}
-
-	// wg.Wait()
-
 }
 
 func build_indexes(name string) {
-
-	var sqlite_name = "databases/" + name + ".sqlite"
-
-	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
-
-	if err != nil {
-		panic("failed to connect database")
-	}
 
 	var submissions []models.Submission
 
 	var indexes []models.Index
 
-	db.Find(&submissions)
+	storeService.db.Find(&submissions)
 
 	for i := 0; i < len(submissions); i++ {
 
-		// var id = "./api/" + name + "/" + "index" + ".json"
-
 		var index models.Index
-
 		index.SubmissionID = submissions[i].SubmissionID
 		index.CreatedUTC = submissions[i].CreatedUTC
 		index.Score = submissions[i].Score
 
 		indexes = append(indexes, index)
-
 	}
 
 	file, _ := json.MarshalIndent(indexes, "", " ")
@@ -181,16 +174,9 @@ func build_indexes(name string) {
 
 func create_end_points(name string) {
 
-	var sqlite_name = "databases/" + name + ".sqlite"
-
-	db, err := gorm.Open(sqlite.Open(sqlite_name), &gorm.Config{})
-	if err != nil {
-		panic("failed to connect database")
-	}
-
 	var submissions []models.Submission
 
-	db.Preload("Comments").Find(&submissions)
+	storeService.db.Preload("Comments").Find(&submissions)
 
 	if _, err := os.Stat("./api/" + name); os.IsNotExist(err) {
 
@@ -223,7 +209,9 @@ func main() {
 
 	no_of_post := os.Args[2]
 
-	// var subreddit_name = "AskReddit"
+	storeService.db = initialiseDatabase(subreddit_name)
+
+	migrate()
 
 	crawl(subreddit_name, no_of_post)
 
