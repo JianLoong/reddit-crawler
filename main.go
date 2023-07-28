@@ -162,7 +162,7 @@ func build_indexes(name string) {
 
 	file, _ := json.MarshalIndent(indexes, "", " ")
 
-	file_name := "api/" + name + "/indexes.json"
+	file_name := "./docs/api/" + name + "/indexes.json"
 
 	write_err := os.WriteFile(file_name, file, 0777)
 
@@ -178,9 +178,9 @@ func create_end_points(name string) {
 
 	storeService.db.Preload("Comments").Find(&submissions)
 
-	if _, err := os.Stat("./api/" + name); os.IsNotExist(err) {
+	if _, err := os.Stat("./docs/api/" + name); os.IsNotExist(err) {
 
-		err := os.Mkdir("./api/"+name, 0744)
+		err := os.Mkdir("./docs/api/"+name, 0744)
 
 		if err != nil {
 			panic("Cant create directory")
@@ -189,7 +189,7 @@ func create_end_points(name string) {
 
 	for i := 0; i < len(submissions); i++ {
 
-		var id = "./api/" + name + "/" + submissions[i].SubmissionID + ".json"
+		var id = ".docs/api/" + name + "/" + submissions[i].SubmissionID + ".json"
 
 		file, _ := json.MarshalIndent(submissions[i], "", " ")
 
