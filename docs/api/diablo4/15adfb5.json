@@ -4,42 +4,42 @@
  "selftext": "[https://mp1st.com/news/diablo-4-update-1-015-for-july-26-released-for-patch-1-1-0c](https://mp1st.com/news/diablo-4-update-1-015-for-july-26-released-for-patch-1-1-0c)\n\nUpdate: Official patch notes have been added.\n\n1.1.0c Build #43556 (All Platforms) – July 26, 2023\n\n* Fixed an issue where several Focus off-hand items could only have an aspect imprinted on them once.\n* Fixed an issue where combining the Dark Dance and Punishing Speed Malignant Powers could cause the player to stun themselves.\n* Fixed an issue where the Grim Reward Season Journey objective could be repeated by dropping and picking up the same stash.\n* Fixed an issue where the Werebear and Werewolf fur color was too bright in certain situations.\n* Fixed an issue where movement on specific controllers was often not functioning correctly.Updated the activation of the Premium Battle Pass with a confirmation pop-up.\n* The default focus (the button the controller will first highlight) on the Battle Pass screen is now the Season Journey button.\n* Acquiring or re-allocating Seasonal Blessings will now clear the vendor buyback inventory.\n* Fixed multiple instances where players were encountering crashes. Further stability improvements.\n* Fixed an interaction with the Agitated Winds Malignant Heart power which led to automatic Cyclone Armor casts to ignore its own cooldown.\n* Acquiring or re-allocating Seasonal Blessings will now clear the vendor buyback inventory.",
  "created_utc": 1690395591,
  "permalink": "/r/diablo4/comments/15adfb5/july_26th_1015_update/",
- "score": 63,
+ "score": 69,
  "url": "https://www.reddit.com/r/diablo4/comments/15adfb5/july_26th_1015_update/",
  "comments": [
   {
    "comment_id": "jtl5iwp",
    "message": "I tried to read the patch notes, but I had to load the entire post and comment history of every subreddit member before the page would open.",
    "created_utc": 1690411045,
-   "score": 246,
+   "score": 29,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtkggfp",
    "message": "Ha! I'm glad I did #3 before it was patched.",
    "created_utc": 1690401460,
-   "score": 96,
+   "score": 101,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtm25ob",
    "message": "\u0026gt;cause the player to stun themselves\n\nFucking lol. They should honestly keep that in, that's awesome.",
    "created_utc": 1690425231,
-   "score": 13,
+   "score": 12,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtkhlrt",
    "message": "Still no fix for Inperfectly Balanced on Necro, dumb.",
    "created_utc": 1690401882,
-   "score": 57,
+   "score": 61,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtkiy4a",
    "message": " \n\n* Acquiring or re-allocating Seasonal Blessings will now clear the vendor buyback inventory.",
    "created_utc": 1690402369,
-   "score": 20,
+   "score": 19,
    "submission_id": "15adfb5"
   },
   {
@@ -53,14 +53,14 @@
    "comment_id": "jtmgqft",
    "message": "When is the memory leak going to be fixed? Absolutely unbelievable that it's still a problem...",
    "created_utc": 1690432853,
-   "score": 13,
+   "score": 14,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtks2yf",
    "message": "So happy I was tricked into the battlepass before they fixed it a week in!",
    "created_utc": 1690405720,
-   "score": 36,
+   "score": 35,
    "submission_id": "15adfb5"
   },
   {
@@ -74,7 +74,7 @@
    "comment_id": "jtkofoo",
    "message": "So no broken quest fixes again...",
    "created_utc": 1690404378,
-   "score": 13,
+   "score": 11,
    "submission_id": "15adfb5"
   },
   {
@@ -95,14 +95,14 @@
    "comment_id": "jtl4n9v",
    "message": "Revert cdr nerf? Nope. Peace.",
    "created_utc": 1690410682,
-   "score": 7,
+   "score": 8,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtmm3ux",
    "message": "Mob density WHEN",
    "created_utc": 1690436266,
-   "score": 5,
+   "score": 4,
    "submission_id": "15adfb5"
   },
   {
@@ -151,21 +151,21 @@
    "comment_id": "jtklbfx",
    "message": "Good update, hire new QA.",
    "created_utc": 1690403233,
-   "score": 4,
+   "score": 5,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtkhyos",
    "message": "If improvements would roll out as fast as fixes for anything that benefits players this game would allready have 2 addons and a 3rd announced",
    "created_utc": 1690402010,
-   "score": 8,
+   "score": 9,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtmm8k2",
    "message": "Well looks like they didnt patch the bugged Necro passive Imperfectly Balanced",
    "created_utc": 1690436351,
-   "score": 2,
+   "score": 3,
    "submission_id": "15adfb5"
   },
   {
@@ -179,14 +179,14 @@
    "comment_id": "jtl23mi",
    "message": "What about mob density?",
    "created_utc": 1690409625,
-   "score": 2,
+   "score": 1,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtkkuw6",
    "message": "2 of the patch notes are strictly anti-payer/fun harmless patches, while all the promised game improvements are ignored because \"they require work and are not important anyway since they only improve the player experience\"",
    "created_utc": 1690403067,
-   "score": 253,
+   "score": 254,
    "submission_id": "15adfb5"
   },
   {
@@ -221,28 +221,28 @@
    "comment_id": "jtl628b",
    "message": "\u0026gt;Fixed an issue where the Werebear and Werewolf fur color was too bright in certain situations.\n\nSo glad they have their priorities in order. Guess it's time to finally get back in the saddle! 🙄",
    "created_utc": 1690411265,
-   "score": 255,
+   "score": 0,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtlyvd6",
    "message": "weren't there some buff comming?",
    "created_utc": 1690423729,
-   "score": 0,
+   "score": 1,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtkw0dt",
    "message": "disappointing patch",
    "created_utc": 1690407236,
-   "score": 251,
+   "score": 252,
    "submission_id": "15adfb5"
   },
   {
    "comment_id": "jtl4ocb",
    "message": "And yet again, these stupid fuckers kicked me out of the game while I was doing the capstone dungeon...",
    "created_utc": 1690410694,
-   "score": 250,
+   "score": 252,
    "submission_id": "15adfb5"
   },
   {
@@ -270,7 +270,7 @@
    "comment_id": "jtmc8x9",
    "message": "TRASSSSSSSSSSSSSSSSSH GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAME",
    "created_utc": 1690430282,
-   "score": 252,
+   "score": 254,
    "submission_id": "15adfb5"
   },
   {

@@ -189,7 +189,7 @@ func create_end_points(name string) {
 
 	for i := 0; i < len(submissions); i++ {
 
-		var id = ".docs/api/" + name + "/" + submissions[i].SubmissionID + ".json"
+		var id = "./docs/api/" + name + "/" + submissions[i].SubmissionID + ".json"
 
 		file, _ := json.MarshalIndent(submissions[i], "", " ")
 
