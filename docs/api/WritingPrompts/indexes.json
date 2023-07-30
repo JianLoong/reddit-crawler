@@ -251,7 +251,7 @@
  },
  {
   "created_utc": 1690573348,
-  "score": 6,
+  "score": 4,
   "submission_id": "15c73tr"
  },
  {
@@ -361,7 +361,7 @@
  },
  {
   "created_utc": 1690616416,
-  "score": 93,
+  "score": 111,
   "submission_id": "15cm4uu"
  },
  {
@@ -431,7 +431,7 @@
  },
  {
   "created_utc": 1690638547,
-  "score": 46,
+  "score": 58,
   "submission_id": "15cssr8"
  },
  {
@@ -446,7 +446,7 @@
  },
  {
   "created_utc": 1690647965,
-  "score": 7,
+  "score": 8,
   "submission_id": "15cwe6p"
  },
  {
@@ -461,7 +461,7 @@
  },
  {
   "created_utc": 1690643690,
-  "score": 25,
+  "score": 37,
   "submission_id": "15cuq3c"
  },
  {
@@ -471,7 +471,7 @@
  },
  {
   "created_utc": 1690657665,
-  "score": 11,
+  "score": 36,
   "submission_id": "15d05q2"
  },
  {
@@ -496,7 +496,7 @@
  },
  {
   "created_utc": 1690660291,
-  "score": 119,
+  "score": 131,
   "submission_id": "15d16b4"
  },
  {
@@ -511,7 +511,7 @@
  },
  {
   "created_utc": 1690663895,
-  "score": 55,
+  "score": 59,
   "submission_id": "15d2kmg"
  },
  {
@@ -521,7 +521,7 @@
  },
  {
   "created_utc": 1690671582,
-  "score": 56,
+  "score": 63,
   "submission_id": "15d5jw3"
  },
  {
@@ -531,7 +531,7 @@
  },
  {
   "created_utc": 1690682392,
-  "score": 120,
+  "score": 216,
   "submission_id": "15d9b7k"
  },
  {
@@ -541,7 +541,7 @@
  },
  {
   "created_utc": 1690681349,
-  "score": 38,
+  "score": 48,
   "submission_id": "15d8yzb"
  },
  {
@@ -566,7 +566,7 @@
  },
  {
   "created_utc": 1690686418,
-  "score": 22,
+  "score": 24,
   "submission_id": "15dam12"
  },
  {
@@ -576,7 +576,7 @@
  },
  {
   "created_utc": 1690689812,
-  "score": 49,
+  "score": 66,
   "submission_id": "15dbos5"
  },
  {
@@ -586,7 +586,7 @@
  },
  {
   "created_utc": 1690684868,
-  "score": 24,
+  "score": 36,
   "submission_id": "15da43b"
  },
  {
@@ -596,12 +596,12 @@
  },
  {
   "created_utc": 1690699534,
-  "score": 16,
+  "score": 24,
   "submission_id": "15dem73"
  },
  {
   "created_utc": 1690698147,
-  "score": 8,
+  "score": 11,
   "submission_id": "15de83r"
  },
  {
@@ -611,7 +611,32 @@
  },
  {
   "created_utc": 1690706975,
-  "score": 5,
+  "score": 6,
   "submission_id": "15dgmrv"
+ },
+ {
+  "created_utc": 1690716966,
+  "score": 8,
+  "submission_id": "15djg5w"
+ },
+ {
+  "created_utc": 1690706637,
+  "score": 9,
+  "submission_id": "15dgjqo"
+ },
+ {
+  "created_utc": 1690719196,
+  "score": 3,
+  "submission_id": "15dk4kp"
+ },
+ {
+  "created_utc": 1690699581,
+  "score": 8,
+  "submission_id": "15demnj"
+ },
+ {
+  "created_utc": 1690712435,
+  "score": 4,
+  "submission_id": "15di4se"
  }
 ]
