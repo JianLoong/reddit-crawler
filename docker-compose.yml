@@ -6,7 +6,7 @@ services:
     build: ./
     container_name: crawler
     command: 
-      - WritingPrompts
+      - askreddit
       - "20"
     # env_file:
     #   - database.env

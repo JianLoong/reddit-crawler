@@ -4,7 +4,7 @@
  "selftext": "This **weekly reoccurring thread** is dedicated for \n\n* asking for **advice and feedback on builds** (possible improvements for existing builds)\n* **theorycrafting** about builds (discussion and suggestions on Skill / Items / Affix interactions, synergies, improvements, etc)\n\n\u0026amp;#x200B;\n\n*Images are also allowed to be posted...*\n\n*... plus, you can use our partner website* [***DiabloBuilds.com***](http://diablobuilds.com/) *as an additional tool and resource to better show your theorycrafted build to other users.*\n\n\u0026amp;#x200B;\n\n*If you already have a* ***Full Guide****, e.g. in written form, as a Video or as an image,* ***please post them in the most recent*** [***\\[Weekly Guides Thread\\]***](https://www.reddit.com/r/diablo4/search?q=flair_name%3A%22Weekly%20Guides%22\u0026amp;restrict_sr=1\u0026amp;sort=new) ***instead!***\n\nThank you!",
  "created_utc": 1690171347,
  "permalink": "/r/diablo4/comments/157zm6p/weekly_build_advice_and_theorycrafting_thread_for/",
- "score": 10,
+ "score": 18,
  "url": "https://www.reddit.com/r/diablo4/comments/157zm6p/weekly_build_advice_and_theorycrafting_thread_for/",
  "comments": [
   {
@@ -18,14 +18,14 @@
    "comment_id": "jtanibr",
    "message": "Leveling a seasonal Druid. Presently at 55 in WT3 with all my skill points unlocked and currently playing a pulverize build (I’ll stick with this until I’m blessed with a Tempest Roar down the road).\n\nMy issue seems to be Spirit generation in that I spend more time regenning spirit through my basic skill than I think I should be based on build guides.  I get that this issue diminishes with level/paragon/gear, but what are the best “low-hanging fruit” to improve that issue?  Are there any temp fixes you can spec/gear into? Thanks.",
    "created_utc": 1690230624,
-   "score": 4,
+   "score": 5,
    "submission_id": "157zm6p"
   },
   {
    "comment_id": "jte7ih4",
    "message": "To preface, I've never played a game like Diablo before. Hoping this is the right place for questions. I'm still learning about this game having barely interfaced with the paragon board or anything outside of WT2.\n\nI just hit Lv. 50 (Necro) and completed the T2 Capstone last night. I didn't get to WT3 in the Eternal realm. I joined world boss and some helltides in World Tier 3 and think I got quite lucky by getting a sacred unique helmet (Deathless Visage) and SU chest-plate (Blood Artisan's Cuirass).\n\nI'm generally using a bone spear build with some minions, but having gotten the chest-plate, is it worth it to incorporate orbs into my build? I don't believe I have any points invested into blood skills at this point.",
    "created_utc": 1690298356,
-   "score": 3,
+   "score": 6,
    "submission_id": "157zm6p"
   },
   {
@@ -53,7 +53,7 @@
    "comment_id": "jt98tk0",
    "message": "Brand new player - how should I build a barb for the first 15 levels or so?",
    "created_utc": 1690210694,
-   "score": 2,
+   "score": 3,
    "submission_id": "157zm6p"
   },
   {
@@ -74,7 +74,7 @@
    "comment_id": "jtbzv4s",
    "message": "I've been really digging Diablo 4. There is plenty to do and keep me interested. Concurrently, I've been listening to the LitRpg, \"He who fights with Monsters\". If you have some free credits on Audible, consider giving book 1 a listen. I did, and now I'm finishing book 9. Really fun series. \n\nIt got me thinking about how cool it would be to have a Jason Asano inspired Rogue or Necromancer. Why stop there? What about Farah, Rufus, Gary, Clive, and the whole Gang? Just some fun thoughts I've been kicking around. Of course, I'm not that good at build crafting, but I would love some thoughts on what your builds would look like?",
    "created_utc": 1690251387,
-   "score": 1,
+   "score": 2,
    "submission_id": "157zm6p"
   },
   {
@@ -123,7 +123,7 @@
    "comment_id": "jtb9g98",
    "message": "Hi, with the new Druid seasonal aspect. If I upgrade landslide will i get increased damage when I use my creepers?",
    "created_utc": 1690239460,
-   "score": 1,
+   "score": 3,
    "submission_id": "157zm6p"
   },
   {
@@ -207,7 +207,7 @@
    "comment_id": "jtf22fi",
    "message": "I've tried finding a recent answer regarding the Druid's key passive Nature's Fury but there doesn't seem to be a straight answer. So I will ask here:\n\nIf you have points invested in Landslide say, 5/5 will Lightning Storm proc that 5/5 skill or just the level 1 skill?\n\nWill the Primal Landslide ( When you Immobilize or Stun an enemy, you gain a *Terra mote*. ) upgrade proc from Nature's Fury if Landslide is not placed in the skill bar? If not how about passive upgrades such as Enhanced Landslide (After landslide hits 4 enemies it will immobilize for 3 seconds)?",
    "created_utc": 1690309829,
-   "score": 1,
+   "score": 2,
    "submission_id": "157zm6p"
   },
   {
@@ -312,6 +312,83 @@
    "comment_id": "jtr94ss",
    "message": "I have a individual post for this but trying to determine why this pulverize build has so many storm bonus damages in it. Especially in the linked paragon tree. \n\nhttps://www.icy-veins.com/d4/guides/pulverize-werebear-druid-build/",
    "created_utc": 1690514443,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jttlht8",
+   "message": "Druid's earthen might doesn't seem to work with pulverize when I use the aspect that makes it an earth skill. I never get the spirit refill. Then when I use petrify I suddenly gain full spirit with every use of pulverize. Something feels really wrong here.",
+   "created_utc": 1690561148,
+   "score": 2,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtv2g8f",
+   "message": "With subside I think you always take earthen bulwark, cataclysm with grouping, a generator, landslide, and poison creeper. Whats everyone's last skill? I take hurricane for damage and vulnerable and I'm running the dot wrathful heart. Sometimes it casts vulnerable off nature's fury though sending mobs off the screen that I wanted to kill.\n\nConsidering trying barber but I hear that's bugged and doesn't work with some poisons.",
+   "created_utc": 1690581103,
+   "score": 2,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtswok2",
+   "message": " \n\nHi everyone,\n\nI was able to get some very lucky RNG as a necro and have the following uniques. I am curious if there is a build that could incorporate most of these uniques...want to do some sort of minion build.\n\nUniques I have:\n\n\\- Ring of Mendeln\n\n\\- Bloodless Scream\n\n\\- Deathless Visage\n\n\\- Razorplate\n\n\\- Black River\n\n\\- Howl from Below\n\n\\- Blood Artisan's Cuirass\n\nThank you!",
+   "created_utc": 1690551657,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jttw4xk",
+   "message": "I’ve been playing a HOA leveling build for barb and switched to a end game 50+ whirlwind build when I hit lvl 50. I’m getting a little bored of doing shouts and having only 2 physical attacks. Is there another build someone can recommend to me that would be more fun?",
+   "created_utc": 1690565072,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtua3ig",
+   "message": "What are all my fellow sorcs running this season? Currently trying ice shards. But spending 90% of my time dead lol",
+   "created_utc": 1690570244,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtv21sw",
+   "message": "Maybe a noob question but is a there a best stat to focus on for Necromancers? Like if I have a buncha gear that increases is that a better suffix than something else?",
+   "created_utc": 1690580943,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtwfnjp",
+   "message": "I'm a filthy casual.. only made it to 60-something on my pre season necro, running a druid in season 1 at lvl 25. I skipped campaign and now im feeling a little lost. There's a ton to do, but zero direction on what's worth doing. I go back and forth between a bit of map exploration and running dungeons/events/whatever... What content should I REALLY focus for a)enjoyment and b)quick advancement.. a few weeks after release, once my friends and I fell out of that new game schedule sync, I've only been able to play solo in small bursts due to having no direction.\n\n\u0026amp;#x200B;\n\nGot any links for \"power leveling\" solo and what builds are the best/most fun for druid without requiring aspects, since I've only gotten 1 legendary drop on this toon so far lol",
+   "created_utc": 1690604041,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtwlh3c",
+   "message": "If I redo my paragon board and refund a bunch of glyphs/pieces/points back, do I get the glyphs back to use again?",
+   "created_utc": 1690607480,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "jtxy9a2",
+   "message": "Is the \"Fiery Surge\" skill for Sorcs still bugged?\n\nI saw some posts before stating this skill wasn't working, but the ones I found had half saying it is, and half saying it isn't. I haven't seen anything in Diablo's patch notes (past and present) stating that it was?  \nI did find a previous patch that they actually buffed the skill, but no mention of it being broken.\n\nI do see Maxroll has it written that it's bugged, but I'm not sure if that's current or if the text was/should have been removed, I'm unsure.",
+   "created_utc": 1690638922,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "ju012lz",
+   "message": "Trying to understand how armor works vs damage reduction stat.  \nOr, very specifically... I have a 680 chest that's slightly upgraded with 2.2% total armor, +470 max life, +6.7% damage reduction\n\nIs that better or worse than a random 810 chest w/o any good substats? the 810 chest gives me +200 armor total, but nothing else really helpful (I can't enchanted anything yet, so I could replace 1 substat). When I put it on, i gain an effective +90 armor or so (because the 680 has the 2.2% total armor).",
+   "created_utc": 1690669417,
+   "score": 1,
+   "submission_id": "157zm6p"
+  },
+  {
+   "comment_id": "ju0d777",
+   "message": "To the rogues out there, I'm a TB rogue lvl 75 and would like to give penetrating shot or rapid fire a shot but can't decide which one... Which did you prefer and why please?",
+   "created_utc": 1690674986,
    "score": 1,
    "submission_id": "157zm6p"
   }

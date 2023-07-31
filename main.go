@@ -87,18 +87,13 @@ func getComments(sub models.Submission) {
 		comment.Message = commentObject[1].Data.Children[j].Data.Body
 		comment.CreatedUTC = commentObject[1].Data.Children[j].Data.CreatedUtc
 		comment.Score = uint8(commentObject[1].Data.Children[j].Data.Score)
-		// comment.SubmissionID = responseObject.Data.Children[i].Data.ID
 		comment.SubmissionID = sub.SubmissionID
 		comment.CommentID = commentObject[1].Data.Children[j].Data.ID
 
 		comments = append(comments, comment)
 
-		// storeService.db.Clauses(clause.OnConflict{
-		// 	UpdateAll: true,
-		// }).Create(&comment)
-
 	}
-
+	// Batch insert comments
 	storeService.db.Clauses(clause.OnConflict{
 		UpdateAll: true,
 	}).Create(&comments)
@@ -117,7 +112,7 @@ func crawl(subreddit_name string, no_of_post string) {
 
 	fmt.Println("Processing")
 
-	// var submissions []models.Submission
+	var submissions []models.Submission
 
 	for i := 0; i < len(responseObject.Data.Children); i++ {
 		var sub models.Submission
@@ -133,13 +128,20 @@ func crawl(subreddit_name string, no_of_post string) {
 
 		// db.Create((&sub))
 		// Upsert
-		storeService.db.Clauses(clause.OnConflict{
-			UpdateAll: true,
-		}).Create(&sub)
+		// storeService.db.Clauses(clause.OnConflict{
+		// 	UpdateAll: true,
+		// }).Create(&sub)
+
+		submissions = append(submissions, sub)
 
 		getComments(sub)
 
 	}
+
+	storeService.db.Clauses(clause.OnConflict{
+		UpdateAll: true,
+	}).Create(&submissions)
+
 }
 
 func build_indexes(name string) {
