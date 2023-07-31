@@ -8,10 +8,6 @@ services:
     command: 
       - askreddit
       - "20"
-    # env_file:
-    #   - database.env
-    # extra_hosts:
-    #   - "host.docker.internal:host-gateway"
     volumes:
       - ./docs/api:/app/docs/api
       - ./databases:/app/databases
