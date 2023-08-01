@@ -128,11 +128,11 @@ func crawl(subreddit_name string, no_of_post string) {
 		sub.Permalink = responseObject.Data.Children[i].Data.Permalink
 		sub.Score = uint8(responseObject.Data.Children[i].Data.Score)
 
-		// db.Create((&sub))
-		// Upsert
-		// storeService.db.Clauses(clause.OnConflict{
-		// 	UpdateAll: true,
-		// }).Create(&sub)
+		//db.Create((&sub))
+		//Upsert
+		storeService.db.Clauses(clause.OnConflict{
+			UpdateAll: true,
+		}).Create(&sub)
 
 		submissions = append(submissions, sub)
 
@@ -140,9 +140,9 @@ func crawl(subreddit_name string, no_of_post string) {
 
 	}
 
-	storeService.db.Clauses(clause.OnConflict{
-		UpdateAll: true,
-	}).Create(&submissions)
+	//storeService.db.Clauses(clause.OnConflict{
+	//	UpdateAll: true,
+	//}).Create(&submissions)
 
 }
 
