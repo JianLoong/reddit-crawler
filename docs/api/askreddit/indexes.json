@@ -781,7 +781,7 @@
  },
  {
   "created_utc": 1690976696,
-  "score": 43,
+  "score": 249,
   "submission_id": "15g6q52"
  },
  {
@@ -811,12 +811,12 @@
  },
  {
   "created_utc": 1690993087,
-  "score": 9,
+  "score": 24,
   "submission_id": "15gd82t"
  },
  {
   "created_utc": 1690994073,
-  "score": 64,
+  "score": 195,
   "submission_id": "15gdo6f"
  },
  {
@@ -826,7 +826,7 @@
  },
  {
   "created_utc": 1690994822,
-  "score": 183,
+  "score": 238,
   "submission_id": "15gdzk1"
  },
  {
@@ -841,7 +841,7 @@
  },
  {
   "created_utc": 1691000196,
-  "score": 71,
+  "score": 8,
   "submission_id": "15ggdgu"
  },
  {
@@ -856,7 +856,7 @@
  },
  {
   "created_utc": 1691005329,
-  "score": 125,
+  "score": 152,
   "submission_id": "15gimqq"
  },
  {
@@ -866,7 +866,7 @@
  },
  {
   "created_utc": 1691007483,
-  "score": 111,
+  "score": 112,
   "submission_id": "15gjkeh"
  },
  {
@@ -881,7 +881,7 @@
  },
  {
   "created_utc": 1691004538,
-  "score": 154,
+  "score": 16,
   "submission_id": "15gi9z5"
  },
  {
@@ -911,7 +911,7 @@
  },
  {
   "created_utc": 1691023742,
-  "score": 67,
+  "score": 0,
   "submission_id": "15gpdyb"
  },
  {
@@ -921,12 +921,12 @@
  },
  {
   "created_utc": 1691029507,
-  "score": 169,
+  "score": 250,
   "submission_id": "15grgxn"
  },
  {
   "created_utc": 1691030755,
-  "score": 201,
+  "score": 61,
   "submission_id": "15grwpg"
  },
  {
@@ -941,22 +941,47 @@
  },
  {
   "created_utc": 1691047841,
-  "score": 25,
+  "score": 31,
   "submission_id": "15gx7e1"
  },
  {
   "created_utc": 1691041450,
-  "score": 41,
+  "score": 91,
   "submission_id": "15gvc4x"
  },
  {
   "created_utc": 1691038625,
-  "score": 28,
+  "score": 37,
   "submission_id": "15gugs3"
  },
  {
   "created_utc": 1691041122,
-  "score": 24,
+  "score": 99,
   "submission_id": "15gv8pz"
+ },
+ {
+  "created_utc": 1691064799,
+  "score": 19,
+  "submission_id": "15h2ifl"
+ },
+ {
+  "created_utc": 1691050039,
+  "score": 31,
+  "submission_id": "15gxuob"
+ },
+ {
+  "created_utc": 1691060947,
+  "score": 12,
+  "submission_id": "15h15bw"
+ },
+ {
+  "created_utc": 1691054011,
+  "score": 17,
+  "submission_id": "15gyzge"
+ },
+ {
+  "created_utc": 1691063184,
+  "score": 10,
+  "submission_id": "15h1w7m"
  }
 ]
