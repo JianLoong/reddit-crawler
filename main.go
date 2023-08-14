@@ -3,12 +3,11 @@ package main
 
 import (
 	"crawlers/models"
+	"io"
+	"net/http"
 
 	"encoding/json"
 	"fmt"
-	"io"
-	"log"
-	"net/http"
 	"os"
 
 	"gorm.io/driver/sqlite"
@@ -49,6 +48,30 @@ func migrate() {
 // Creates a request and returns the response
 func request(url string) []byte {
 
+	// client := http.Client{}
+
+	// request, err := http.NewRequest(http.MethodGet, "https://oauth.reddit.com/api/v1/scopes", nil)
+
+	// if err != nil {
+	// 	fmt.Println(err)
+	// 	panic(err)
+	// }
+
+	// response, err := client.Do(request)
+
+	// respData, err := io.ReadAll(response.Body)
+
+	// if err != nil {
+	// 	fmt.Println(err)
+	// 	panic(err)
+	// }
+
+	// fmt.Println(respData)
+
+	// defer response.Body.Close()
+
+	// return respData
+
 	response, err := http.Get(url)
 
 	if err != nil {
@@ -57,9 +80,13 @@ func request(url string) []byte {
 	}
 
 	responseData, err := io.ReadAll(response.Body)
+
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println(err)
+		panic(err)
 	}
+
+	defer response.Body.Close()
 
 	return responseData
 
@@ -105,13 +132,19 @@ func getComments(sub models.Submission) {
 
 func crawl(subreddit_name string, no_of_post string) {
 
-	urlString := fmt.Sprintf("https://www.reddit.com/r/%v.json?limit=%v", subreddit_name, no_of_post)
+	urlString := fmt.Sprintf("https://www.reddit.com/r/%v/.json?limit=%v", subreddit_name, no_of_post)
 
-	var responseObject models.SubmissionResponse
+	var responseObject models.SubmissionsResponse
 
 	var responseData = request(urlString)
 
-	json.Unmarshal(responseData, &responseObject)
+	err := json.Unmarshal(responseData, &responseObject)
+
+	fmt.Println(urlString)
+
+	if err != nil {
+		panic(err)
+	}
 
 	fmt.Println("Processing")
 
