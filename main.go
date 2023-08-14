@@ -9,6 +9,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"sync"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
@@ -48,30 +49,6 @@ func migrate() {
 // Creates a request and returns the response
 func request(url string) []byte {
 
-	// client := http.Client{}
-
-	// request, err := http.NewRequest(http.MethodGet, "https://oauth.reddit.com/api/v1/scopes", nil)
-
-	// if err != nil {
-	// 	fmt.Println(err)
-	// 	panic(err)
-	// }
-
-	// response, err := client.Do(request)
-
-	// respData, err := io.ReadAll(response.Body)
-
-	// if err != nil {
-	// 	fmt.Println(err)
-	// 	panic(err)
-	// }
-
-	// fmt.Println(respData)
-
-	// defer response.Body.Close()
-
-	// return respData
-
 	response, err := http.Get(url)
 
 	if err != nil {
@@ -92,7 +69,9 @@ func request(url string) []byte {
 
 }
 
-func getComments(sub models.Submission) {
+func getComments(sub models.Submission, wg *sync.WaitGroup) {
+
+	defer wg.Done()
 
 	var commentObject models.CommentsResponse
 
@@ -150,6 +129,8 @@ func crawl(subreddit_name string, no_of_post string) {
 
 	var submissions []models.Submission
 
+	var wg sync.WaitGroup
+
 	for i := 0; i < len(responseObject.Data.Children); i++ {
 		var sub models.Submission
 
@@ -163,19 +144,23 @@ func crawl(subreddit_name string, no_of_post string) {
 
 		//db.Create((&sub))
 		//Upsert
-		storeService.db.Clauses(clause.OnConflict{
-			UpdateAll: true,
-		}).Create(&sub)
+		// storeService.db.Clauses(clause.OnConflict{
+		// 	UpdateAll: true,
+		// }).Create(&sub)
 
 		submissions = append(submissions, sub)
 
-		getComments(sub)
+		wg.Add(1)
+
+		go getComments(sub, &wg)
 
 	}
 
-	//storeService.db.Clauses(clause.OnConflict{
-	//	UpdateAll: true,
-	//}).Create(&submissions)
+	wg.Wait()
+
+	storeService.db.Clauses(clause.OnConflict{
+		UpdateAll: true,
+	}).Create(&submissions)
 
 }
 
