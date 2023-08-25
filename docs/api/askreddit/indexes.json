@@ -4096,7 +4096,7 @@
  },
  {
   "created_utc": 1692872467,
-  "score": 251,
+  "score": 174,
   "submission_id": "15zxxo9"
  },
  {
@@ -4111,17 +4111,17 @@
  },
  {
   "created_utc": 1692877209,
-  "score": 167,
+  "score": 100,
   "submission_id": "15zzj58"
  },
  {
   "created_utc": 1692901787,
-  "score": 3,
+  "score": 170,
   "submission_id": "160a24c"
  },
  {
   "created_utc": 1692878199,
-  "score": 52,
+  "score": 213,
   "submission_id": "15zzvmy"
  },
  {
@@ -4136,7 +4136,7 @@
  },
  {
   "created_utc": 1692900327,
-  "score": 241,
+  "score": 76,
   "submission_id": "1609evk"
  },
  {
@@ -4176,32 +4176,32 @@
  },
  {
   "created_utc": 1692911984,
-  "score": 218,
+  "score": 108,
   "submission_id": "160ek2q"
  },
  {
   "created_utc": 1692908088,
-  "score": 95,
+  "score": 210,
   "submission_id": "160cu4t"
  },
  {
   "created_utc": 1692919777,
-  "score": 235,
+  "score": 76,
   "submission_id": "160i22y"
  },
  {
   "created_utc": 1692923808,
-  "score": 212,
+  "score": 228,
   "submission_id": "160jpur"
  },
  {
   "created_utc": 1692905120,
-  "score": 144,
+  "score": 220,
   "submission_id": "160bjfv"
  },
  {
   "created_utc": 1692933776,
-  "score": 177,
+  "score": 57,
   "submission_id": "160nj49"
  },
  {
@@ -4216,7 +4216,7 @@
  },
  {
   "created_utc": 1692934275,
-  "score": 74,
+  "score": 90,
   "submission_id": "160npg8"
  },
  {
@@ -4236,12 +4236,37 @@
  },
  {
   "created_utc": 1692948751,
-  "score": 62,
+  "score": 136,
   "submission_id": "160s7sz"
  },
  {
   "created_utc": 1692953626,
-  "score": 21,
+  "score": 57,
   "submission_id": "160tm6i"
+ },
+ {
+  "created_utc": 1692965722,
+  "score": 43,
+  "submission_id": "160xl83"
+ },
+ {
+  "created_utc": 1692963300,
+  "score": 43,
+  "submission_id": "160wpig"
+ },
+ {
+  "created_utc": 1692967757,
+  "score": 27,
+  "submission_id": "160yd73"
+ },
+ {
+  "created_utc": 1692960989,
+  "score": 25,
+  "submission_id": "160vwat"
+ },
+ {
+  "created_utc": 1692962477,
+  "score": 25,
+  "submission_id": "160wexr"
  }
 ]
