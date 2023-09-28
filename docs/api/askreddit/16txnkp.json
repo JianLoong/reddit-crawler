@@ -1,0 +1,165 @@
+{
+ "submission_id": "16txnkp",
+ "title": "experienced guys, tell us what work problems can already be solved using AI?",
+ "selftext": "",
+ "created_utc": 1695852359,
+ "permalink": "/r/AskReddit/comments/16txnkp/experienced_guys_tell_us_what_work_problems_can/",
+ "score": 124,
+ "url": "https://www.reddit.com/r/AskReddit/comments/16txnkp/experienced_guys_tell_us_what_work_problems_can/",
+ "comments": [
+  {
+   "comment_id": "k2hwg6p",
+   "message": "Most banking intern jobs. My ex was very savvy with excel and just built a model in excel that did her entire job. She read like 20 books that summer. Imagine if modern ai was doing it.",
+   "created_utc": 1695853616,
+   "score": 26,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2hxmt3",
+   "message": "Customer service queries online (most of the time…), analysing data. I’ve found it’s helped reduce errors with handling data for sure",
+   "created_utc": 1695854093,
+   "score": 7,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2hx35j",
+   "message": "I work at a small education company with little prior programming experience.\n\nUsing ChatGPT and its like, I have\n\n* become a de-facto data analytics guru, combing through dozens of our ancient spreadsheets using Microsoft PowerBI to make deep and insightful data dashboards that are wildly responsive\n\n* set up scripts to handle integrations and automations, dramatically reducing the menial data-entry tasks I once had to do\n\n* created bots to automatically generate session reports after sessions\n\n* created bots to generate practice problems for any topic and theme and post them to our slack channels\n\n* created bots to summarize incoming emails and ping the right person to respond on slack / draft up a possible response in our email outbox",
+   "created_utc": 1695853872,
+   "score": 16,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2htp2k",
+   "message": "Cloning signal processors with an accuracy of \u0026gt;99.999 %.",
+   "created_utc": 1695852536,
+   "score": 6,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i50h3",
+   "message": "I can write a few paragraphs of incoherent bullshit and ChatGPT will turn it into a completely cohesive and formal business email.",
+   "created_utc": 1695857156,
+   "score": 5,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i3d1h",
+   "message": "There's a way to use it to take notes from teams meeting? Asking for a friend...",
+   "created_utc": 1695856463,
+   "score": 3,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i5e9w",
+   "message": "I'm a smoking-hot woman but alright.\n\nI've used LLMs to generate marketing copy since before ChatGPT made a huge splash. \n\nWithout a lot of prompting, a lot of the content/copy is mid. When I have a specific point to make in a blog, social media post, or video, I basically have to spell out exactly what I want the tool to write. LLM is bad at 'hot takes' unless by accident. \n\nWhen doing content planning or research, you must be specific in prompting (again). A lot of the first ideas or marketing headlines these tools generate are so common, that they might as well be invisible to the eye of the target audience.\n\nMy AI tool for marketing and copywriting is better (and cheaper) than someone who recently graduated college with a marketing degree, but only because it's not afraid to generate bad marketing.",
+   "created_utc": 1695857320,
+   "score": 5,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2hu572",
+   "message": "Smart platforms, Creation of individual learning paths, Behavioral analysis.",
+   "created_utc": 1695852711,
+   "score": 2,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2iauan",
+   "message": "Well, you see AI has made significant advancements and can be applied to a wide range of work problems across various industries. Some of the common work problems that can already be solved using AI include (in no particular order):\n\n#Data Analysis and Insights#\n\n**Predictive Analytics:**AI can predict future trends, customer behavior, and market conditions.\n\n**Sentiment Analysis:** Analyzing text data to understand customer sentiments and opinions.\n\n**Anomaly Detection:** Identifying unusual patterns or outliers in data.\n\n\n#Automation and Efficiency#\n\n**Robotic Process Automation (RPA):** Automating repetitive tasks and workflows.\n\n**Chatbots and Virtual Assistants:** Handling customer inquiries and routine tasks.\n\n**Document Classification and Extraction:** Automatically extracting data from documents.\n\n\n#Natural Language Processing (NLP)#\n\n**Language Translation:** Translating text or speech from one language to another.\n\n**Text Summarization:** Creating concise summaries of lengthy texts.\n\n**Speech Recognition:** Converting spoken language into text.\n\n\n#Computer Vision#\n\n**Image and Object Recognition:** Identifying objects, people, or patterns in images or videos.\n\n**Facial Recognition:** Recognizing individuals based on their facial features.\n\n**Optical Character Recognition (OCR):** Converting printed or handwritten text from images into editable text.\n\n\n\n#Recommendation Systems#\n\n**Personalized Recommendations:** Recommending products, content, or services based on user preferences.\n\n**Content Filtering:** Filtering and recommending relevant content.\n\n\n#Healthcare#\n\n**Disease Diagnosis:** Assisting in the diagnosis of diseases based on medical imaging and patient data.\n\n**Drug Discovery:** Identifying potential drug candidates and their interactions.\n\n**Health Monitoring:** Monitoring patient health through wearables and sensor data.\n\n\n#Finance#\n\n**Fraud Detection:** Identifying fraudulent transactions in real-time.\n\n**Algorithmic Trading:** Automating trading strategies based on market data.\n\n**Credit Scoring:** Assessing creditworthiness of individuals and businesses.\n\n\n#Manufacturing and Industry#\n\n**Predictive Maintenance:** Predicting when equipment or machinery will require maintenance.\n\n**Quality Control:** Identifying defects or anomalies in production processes.\n\n**Supply Chain Optimization:** Optimizing supply chain operations for efficiency.\n\n\n#Environmental Monitoring#\n\n**Climate Modeling:** Predicting and analyzing climate changes.\n\n**Pollution Detection:** Monitoring air and water quality.\n\n\n#Education#\n\n**Personalized Learning:** Tailoring educational content and assessments to individual students.\n\n**Automated Grading:** Grading assignments and tests.\n\n\n\n#Cybersecurity#\n\n**Intrusion Detection:** Detecting and responding to cyber threats in real-time.\n\n**User Behavior Analysis:** Identifying unusual user activity patterns.\n\n\n#Content Creation#\n\n**Generative AI:** Creating art, music, or written content autonomously.\n\n**Video and Audio Generation:** Generating video and audio content.\n\n\n#Reddit#\n\n**Reply automation**: Inserting an /r/askreddit question as a prompt and copy/pasting the answer with some formatting and slight edits to make it sound human.\n\nThese are just a few examples of the many work problems that AI can already help solve. As AI technology continues to advance, its potential applications are expanding across industries and domains, making it a valuable tool for businesses and organizations seeking to improve efficiency, make data-driven decisions, and enhance customer experiences.",
+   "created_utc": 1695859598,
+   "score": 4,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2hxs88",
+   "message": "Most of the business decisions made by CEOs can be automated",
+   "created_utc": 1695854154,
+   "score": 5,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i11up",
+   "message": "Answering this reddit post.",
+   "created_utc": 1695855489,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2hwb0q",
+   "message": "It will write code to do anything you need",
+   "created_utc": 1695853559,
+   "score": 253,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i0srn",
+   "message": "Did you just assume my gender?",
+   "created_utc": 1695855385,
+   "score": 255,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i2ydu",
+   "message": "90% of the monotonous analytical busywork that takes up most of my time in a position that shouldn't require it",
+   "created_utc": 1695856293,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i4p8w",
+   "message": "This won't solve it and if anything makes it worse, but customer service. Would love to have an ai deal with Karen's on the phone.",
+   "created_utc": 1695857024,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2i5a9e",
+   "message": "A large language model can look up and cross reference existing human knowledge to arrive at an accurate decision point.\n\nSo things that require no original thought and no physical manipulation of the environment are solvable with AI. This is a lot medical and diagnostic work, a large amount of procedural law, analytics and clerical work.",
+   "created_utc": 1695857272,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2ickjd",
+   "message": "Oh my God an ai assisted augmented reality headset , with eye and head protection for construction. Imagine augmented reality overlays of the blueprints placed in front of you in real time. Looking at a board and having the length displayed exactly you put a pencil to it and the overlay would measure to the end in both directions in either standard or metric. You place your mark and bring it to the saw, the overlay puts a red line exactly where the saw is and you move the board until it lines the mark up with the blade path and the blade path turns green. You make the cut with the saw. As you turn back around you can see the position the board should come to. You place the board in the overlay to line up with the blueprint and use the nail gun to lock it in place. The nail gun has a similar red danger overlay until the board matches position, then it turns green and you pull the trigger. \n\nIt would also work with most other construction jobs. You could use the ai connected to other tools like voltage meters to quickly sound circuits or test for blown components, or technology like walabot (already exists) to look inside walls. \n\nThis same system put into a different helmet and suddenly your firefighters have overlays of buildings as they move through them, advanced drone scouts feed them information on temperature and layout. Any rooms known to have survivors get.the route outlined, even in full dark smoke, lidar fed information will guide the firefighter through the building to saftey.\n\nYou could imagine ten thousand adapted variations of this ai augmented reality overlay changing jobs. First in military applications, then emergency services, then expensive high end commercial applications. One could eventually imagine ai teachers in augmented reality classrooms telecom teaching.",
+   "created_utc": 1695860314,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2idf1t",
+   "message": "Not experienced, but I find it is great for brainstorming.  Something like, “come up with 10 x that fit y criteria” and then you can further refine them. May require multiple prompts and some digging deeper.\n\nIt’s great for a lot of basic work so long as you filter through and refine.",
+   "created_utc": 1695860666,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2ij8vx",
+   "message": "Right now, I use it largely as an intelligent assistant.\n\nI can have it write reports by feeding it the table structures, then slowly increasing the complexity of the query.\n\nI can hand it a bunch of HTML/CSS/React code, and tell it to center something for me.\n\nIf I'm writing something, it's great for figuring out those \"tip of my tongue\" words.\n\nIt's not something that I think is ready to operate on its own by a long shot, but if you have a handle on how to do something to start out, it can save a LOT of time.\n\nThe other area where I think it excels is getting a straight answer to something. Ask Google a question and I get 20 links of dubious quality that I now have to read myself. Ask ChatGPT, and I can get a step-by-step answer to my problem.\n\nIt's not always the right answer, but it's still quicker than reading 10 Google results and realizing that 8 of them reference a page that no longer exists.",
+   "created_utc": 1695863069,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2ilbei",
+   "message": "Writing programs to export results of anything to a spreadsheet and arranged how you want- that runs automatically.",
+   "created_utc": 1695863914,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2ip0i5",
+   "message": "Not all but most of them",
+   "created_utc": 1695865437,
+   "score": 1,
+   "submission_id": "16txnkp"
+  },
+  {
+   "comment_id": "k2isyuy",
+   "message": "Nothing yet, at least not fully. Now, a TON of work can be helpfully reduced by AI, but it’s AI assisting a human. The threats to jobs will come eventually, but it’s impossible to say when. AI still needs a lot of manual hand holding to be useful.",
+   "created_utc": 1695867100,
+   "score": 1,
+   "submission_id": "16txnkp"
+  }
+ ]
+}
