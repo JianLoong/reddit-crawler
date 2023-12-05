@@ -7,7 +7,7 @@ services:
     container_name: crawler
     command: 
       - askreddit
-      - "20"
+      - "100"
     volumes:
       - ./docs/api:/app/docs/api
       - ./databases:/app/databases
