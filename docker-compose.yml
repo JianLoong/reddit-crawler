@@ -6,7 +6,7 @@ services:
     build: ./
     container_name: crawler
     command: 
-      - aitah
+      - askreddit
       - "20"
     volumes:
       - ./docs/api:/app/docs/api
